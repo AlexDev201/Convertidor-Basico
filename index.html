@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cosas de JS</title>
+</head>
+<body>
+    <main>
+    
+            <div class="container" id="container">
+                <h1 class="title" id="title">Calculdora basica</h1>
+                <p>Ingrese el monto total y el porcentaje a incrementar</p>
+                <label>Ingrese el monto total</label>
+                <input type="number"
+                id="montoTotal"
+                class="montoTotal"
+                placeholder="Ingrese el monto total"
+                required>
+                <label>Ingrese el porcentaje</label>
+                <input type="number"
+                id="porcentaje"
+                class="porcentaje"
+                placeholder="Ingrese el porcentaje"
+                required>
+                
+                <div id="resultado"></div>
+
+                <button type="submit" onclick="calcularMontoTotal()"> Calcular</button>
+
+                
+            </div>
+     
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
